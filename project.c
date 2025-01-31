@@ -19,6 +19,14 @@ struct stuInfo {
 
 void add_statement() {
 
+    printf("Add the Students Details\n");
+    printf("-------------------------\n");
+    printf("Enter the first "
+           "name of student\n");
+
+
+
+
     for (int j = 0; j < 5; j++) {
         scanf("%d", &st[stuNum].cid[j]);
     }
